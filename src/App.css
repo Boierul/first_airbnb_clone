@@ -2,7 +2,7 @@
     font-family: Nunito Sans, sans-serif;
 }
 
-.cardlist {
+.card-list {
     max-width: 100%;
     display: flex;
     flex-wrap: nowrap;

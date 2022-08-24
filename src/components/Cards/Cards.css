@@ -26,10 +26,10 @@
     position: absolute;
     top: 12px;
     left: 16px;
-    background-color: #FF5A5F;
-    padding: 1px 14px;
-    border-radius: 5px;
+    background-color: white;
+    padding: 1px 20px;
+    border-radius: 25px;
     font-weight: bold;
-    color: white;
+    color: #FF5A5F;
     font-family: Nunito Sans, sans-serif;
 }
