@@ -1,3 +1,13 @@
 * {
-    font-family: Nunito Sans, sans-serif, sans-serif;
+    font-family: Nunito Sans, sans-serif;
+}
+
+.cardlist {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
 }

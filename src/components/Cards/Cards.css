@@ -1,0 +1,35 @@
+.card {
+    margin: 0px;
+    line-height: 30px;
+    position: relative;
+}
+
+.card-image {
+    width: 250px;
+    border-radius: 9px;
+}
+
+.star {
+    width: 14px;
+    margin-right: 3px;
+}
+
+.card-stats-gray {
+    color: #918e9b;
+}
+
+.card-info {
+    line-height: 12px;
+}
+
+.status {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    background-color: #FF5A5F;
+    padding: 1px 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-family: Nunito Sans, sans-serif;
+}
