@@ -15,7 +15,7 @@ export default function Footer() {
             <MDBContainer className='p-4'>
                 <section className='mb-4'>
                     <MDBBtn outline color="pink" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='facebook-f'/>
+                        <MDBIcon fab icon='facebook-f' />
                     </MDBBtn>
 
                     <MDBBtn outline color="pink" floating className='m-1' href='#!' role='button'>
@@ -53,7 +53,7 @@ export default function Footer() {
                             </MDBCol>
 
                             <MDBCol size="auto">
-                                <MDBBtn outline color='light' type='submit' className='mb-4'>
+                                <MDBBtn outline color='pink' type='submit' className='mb-4'>
                                     Subscribe
                                 </MDBBtn>
                             </MDBCol>
@@ -185,7 +185,7 @@ export default function Footer() {
 
             <div className='text-center p-3' style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
                 © 2022 Clone Copyright:
-                <a className='text-white' href='https://mdbootstrap.com/'>
+                <a className='text-secondary' href='https://mdbootstrap.com/'>
                     These guys
                 </a>
             </div>
