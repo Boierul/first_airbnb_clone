@@ -1,17 +1,18 @@
 .card {
-    margin: 0px;
-    line-height: 30px;
-    position: relative;
+    align-items: center;
+    flex: 0 0 auto;
 }
 
 .card-image {
-    width: 250px;
+    width: 100%;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .star {
-    width: 14px;
+    height: 14px;
     margin-right: 3px;
+    padding-bottom: 2px;
 }
 
 .card-stats-gray {
@@ -19,8 +20,15 @@
 }
 
 .card-info {
-    line-height: 12px;
+    display: flex;
+    align-items: center;
 }
+
+.card-price-details {
+    padding-bottom: 40px;
+}
+
+
 
 .status {
     position: absolute;
